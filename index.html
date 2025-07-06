@@ -42,6 +42,20 @@
             margin: 0;
             padding: 0;
         }
+        .language-switcher {
+         position: absolute;
+         top: 10px;
+         right: 10px;
+        }
+        .language-switcher a {
+         text-decoration: none;
+         margin: 0 5px;
+         color: hsl(109, 100%, 50%);
+         font-weight: bold;
+        }
+        .language-switcher a:hover {
+         color: #ff00bb;
+        }
         .container {
             max-width: 900px;
             margin: 50px auto;
@@ -181,6 +195,10 @@
     </style>
 </head>
 <body>
+<div class="language-switcher">
+  <a href="en/index.html">English</a> |
+  <a href="de/index.html">Deutsch</a>
+</div>
     <div class="container">
         <div class="header">
             <img src="images/123.jpg" alt="Моя фотография">
@@ -201,9 +219,9 @@
                 <p> - Менеджмент (Управление в здравоохранении) ВолгГМУ 2021 г. </p>
                 </div>
                 <div class="section">
-                    <h2>Допольнительное образование:</h2>
+                    <h2>Дополнительное образование:</h2>
                     <p> - "Белый" хакер (Junior Pentester) Skillfactory 2023 г. </p>
-                    <p> - Управление проектами в IT-сфере (Project Managment) Университет Иннополис 2024 г.</p>
+                    <p> - Управление проектами в IT-сфере (Project Management) Университет Иннополис 2024 г.</p>
         </div>
         <div> 
             <div class="slider-container">
@@ -234,11 +252,11 @@
             <h2><b>Hard Skills</b> (профессиональные навыки):</h2>
             <p><b> 1. Управление проектами в IT </b>(Project Manager):</p>
             <p> - Ведение проектов, планирование, работа с командами.</p>
-            <p> - Agile, Scrum, Kanban (основы).</p>
-            <p> - Jira, YouGile, Miro.</p>
+            <p> - Agile, Scrum, Kanban (основы). </p>
+            <p> - Jira, YouGile, Notion, Miro.</p>
             <p><b> 2. Кибербезопасность</b> (Junior Pentester):</p>
 	        <p> - Основы тестирования на проникновение.</p>
-	        <p> - Базовые знания уязвимостей (OWASP, SQL-инъекции, XSS).</p>
+	        <p> - Базовые знания уязвимостей (OWASP, SQL-инъекции, XSS). </p>
 	        <p> - Linux, терминал, работа с Kali Linux.</p>
 	        <p><b> 3. Администрирование Linux (Debian):</b></p>
         	<p> - Работа с сервером, консолью, пакетами.</p>
@@ -262,14 +280,15 @@
 
             <h2>Языки:</h2>
             <p> - Русский</p> 
-            <p> - Английский (B2) </p>
+            <p> - Английский (B1)</p>
+            <p> - С использованием LLM любой язык (C2) </p>
         </div>
         <div class="section">
             <h2>"Pet" Projects:</h2>
             <p><b>Bclicker</b>
                 - кликер написанный на python, также есть .exe версия для Windows. </p>
             <p><b>Afounded</b> 
-                -	приложение для телефона, которое будет отслеживать другой телефон его координаты (GPS) и по запросу подавать звуковые и световые сигналы чтобы найти телефон.</p>
+                - приложение для телефона, которое будет отслеживать другой телефон его координаты (GPS) и по запросу подавать звуковые и световые сигналы чтобы найти телефон.</p>
             <p><b>Спектр</b>
                 - приватный помощник руководителя с интеграцией популярных сервисов на основе "ИИ" </p>
         </div>
